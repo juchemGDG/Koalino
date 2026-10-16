@@ -46,7 +46,7 @@ Downloads & Releases: https://github.com/juchemGDG/Koalino
 Aktuelle Versionen stehen auf der GitHub-Release-Seite bereit:
 
 - Release-Übersicht: https://github.com/juchemGDG/Koalino/releases/latest
-- **Windows (.exe):** https://github.com/juchemGDG/Koalino/releases/latest/download/Koalino.exe
+- **Windows (.exe):** https://github.com/juchemGDG/Koalino/releases/latest/download/Koalino-Setup.exe
 - **macOS (.dmg):** https://github.com/juchemGDG/Koalino/releases/latest/download/Koalino-macos.dmg
 - **Linux (.tar.gz):** https://github.com/juchemGDG/Koalino/releases/latest/download/Koalino-linux-x86_64.tar.gz
 
