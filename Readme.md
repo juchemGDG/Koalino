@@ -1,4 +1,4 @@
-<p align="center"><img src="brand/koalino-wortbild-hell.svg" alt="Koalino – Editor für Python und MicroPython auf dem ESP32" width="560"></p>
+<p align="center"><img src="koalino-wortbild-hell.svg" alt="Koalino – Editor für Python und MicroPython auf dem ESP32" width="560"></p>
 
 # Koalino
 
