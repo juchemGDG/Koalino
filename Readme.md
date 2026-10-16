@@ -82,59 +82,6 @@ Gruppenzugehörigkeit wirksam wird. Prüfen lässt sie sich mit dem Befehl `grou
 
 ---
 
-## KI-Tutor „Infi" (optional)
-
-Infi ist ein eingebauter, ermutigender Lern-Assistent für Python- und Arduino-Anfängerinnen und -Anfänger. Er läuft **vollständig lokal und kostenlos** über [Ollama](https://ollama.com) – es wird keine Internetverbindung und kein API-Schlüssel benötigt.
-
-Die Option erscheint in den Einstellungen nur, wenn Ollama auf dem Rechner installiert ist.
-
-### Installation (einmalig pro Rechner)
-
-#### Windows
-
-1. Installer herunterladen: [ollama.com/download](https://ollama.com/download/windows)
-2. Setup ausführen – Ollama startet danach automatisch im Hintergrund
-3. Eingabeaufforderung öffnen (`Win + R` → `cmd`) und Modell herunterladen:
-   ```cmd
-   ollama pull llama3.2
-   ```
-
-#### Linux
-
-```bash
-curl -fsSL https://ollama.com/install.sh | sh
-ollama pull llama3.2
-```
-
-#### macOS
-
-```bash
-brew install ollama
-ollama pull llama3.2
-```
-
-> Alternativ: Installer unter [ollama.com/download](https://ollama.com/download/mac) herunterladen.
-
-### Empfohlene Modelle
-
-| Modell | Größe | Empfehlung |
-|---|---|---|
-| `llama3.2` | ~2 GB | Standard – gut und schnell |
-| `llama3.1:8b` | ~4,7 GB | Bessere Qualität, mehr RAM nötig |
-| `gemma2:2b` | ~1,6 GB | Für schwächere Schulrechner |
-
-### Infi aktivieren
-
-1. Koalino starten
-2. **Datei → Einstellungen** öffnen (oder `Strg+,`)
-3. Im Abschnitt **KI-TUTOR (INFI)** den Haken bei „Infi-Tutor aktivieren" setzen
-4. **Übernehmen** klicken – das Chat-Panel öffnet sich rechts
-
-> Das Modell kann im Einstellungs-Dialog jederzeit geändert werden (Feld „Modell").  
-> Ollama muss laufen, bevor Infi gestartet wird. Beim Fehler „Keine Verbindung" bitte in einer Eingabeaufforderung `ollama serve` ausführen.
-
----
-
 ## Fehler verstehen
 
 Stürzt ein Programm ab, zeigt Koalino unter der Fehlermeldung einen **verständlichen,
