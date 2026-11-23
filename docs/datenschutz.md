@@ -1,6 +1,6 @@
 # Datenschutz in Koalino
 
-Stand: Koalino 1.15.9, Entwicklungsstand nach dem Code-Check vom November 2026. Dieses Dokument richtet sich an Lehrkräfte und
+Stand: Koalino 1.15.11, Entwicklungsstand nach dem Code-Check vom November 2026. Dieses Dokument richtet sich an Lehrkräfte und
 Administratorinnen und Administratoren, die Koalino an einer Schule einsetzen. Es
 beschreibt sachlich, welche Daten das Programm wohin schickt und was es lokal
 speichert. Es ist keine Rechtsberatung und ersetzt nicht die Prüfung durch die
@@ -65,7 +65,7 @@ auf Netzlaufwerken:
 
 | Inhalt | Zweck | Personenbezug | Löschfrist |
 |---|---|---|---|
-| Einstellungen (QSettings, Organisation „NIT“, Anwendung „Koalino“) | Schriftgröße, Design, Sketchbook-Ordner, gewählter Chatbot, Python-Pfad | Pfade können den Benutzernamen enthalten | bleibt, bis Koalino deinstalliert oder der Ordner gelöscht wird |
+| Einstellungen (QSettings, Organisation „Koalino“, Anwendung „Koalino“) | Schriftgröße, Design, Sketchbook-Ordner, gewählter Chatbot, Python-Pfad | Pfade können den Benutzernamen enthalten | bleibt, bis Koalino deinstalliert oder der Ordner gelöscht wird |
 | `offline_cache/` | Zwischenkopie jeder geöffneten und gespeicherten Datei, damit bei hängendem Schulserver weitergearbeitet werden kann | Inhalt der Schülerprogramme | Dateien, die 60 Tage nicht benutzt wurden, werden kurz nach dem Start gelöscht (`OFFLINE_CACHE_MAX_AGE_DAYS`) |
 | `staende/` | Stand der Datei bei jedem Programmlauf (max. 50 je Datei) für „Zurück zum letzten funktionierenden Stand“ | Inhalt der Schülerprogramme | Ordner, deren jüngster Stand älter als 90 Tage ist, werden kurz nach dem Start gelöscht (`SNAPSHOT_MAX_AGE_DAYS`) |
 | `crash.log` | Absturzprotokoll: Zeit, Koalino-Version, Betriebssystem, Python-Version, Stacktraces | Dateipfade im Stacktrace können den Benutzernamen enthalten | wird ab 256 KB auf die letzten 100 KB gekürzt; einsehbar unter Hilfe → Absturzprotokoll |
