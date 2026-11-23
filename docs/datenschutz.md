@@ -1,6 +1,6 @@
 # Datenschutz in Koalino
 
-Stand: Koalino 1.15.11, Entwicklungsstand nach dem Code-Check vom November 2026. Dieses Dokument richtet sich an Lehrkräfte und
+Stand: Koalino 1.16.0, Entwicklungsstand nach dem Code-Check vom November 2026. Dieses Dokument richtet sich an Lehrkräfte und
 Administratorinnen und Administratoren, die Koalino an einer Schule einsetzen. Es
 beschreibt sachlich, welche Daten das Programm wohin schickt und was es lokal
 speichert. Es ist keine Rechtsberatung und ersetzt nicht die Prüfung durch die
@@ -38,7 +38,7 @@ seine Datenschutzerklärung gilt.
 | IBD-Editor | ibd.mint-checker.de | Menü „IBD-Editor“ | wie PAP-Editor | Nein |
 | SchaltLab | schaltlab.mint-checker.de | Menü „SchaltLab“ | wie PAP-Editor | Nein |
 | StatPlot (Datenauswertung) | statplot.mint-checker.de | Knopf „Datenauswertung“ | Die geöffnete **CSV-Datei wird per `postMessage` an die Seite übergeben** und dort im Browser ausgewertet. Sie wird nicht hochgeladen, aber der ausführende JavaScript-Code kommt vom Server. Ohne Netz läuft die mitgelieferte Offline-Kopie; mit der Einstellung „Datenauswertung immer offline“ (Einstellungen → Funktionen) wird der Server gar nicht kontaktiert | Nein |
-| GitHub | api.github.com, codeload.github.com, raw.githubusercontent.com | Bibliotheks-Manager (NIT_Bibliotheken), micro:bit-Firmware | nur Downloads | Nein |
+| GitHub | api.github.com, codeload.github.com, raw.githubusercontent.com, github.com (Release-Downloads) | Bibliotheks-Manager (NIT_Bibliotheken), micro:bit-Firmware, Hilfe → „Auf die neueste Version aktualisieren“ (fragt die neueste Version ab und lädt das Paket erst nach Bestätigung; es gibt keine automatische Update-Prüfung im Hintergrund) | nur Downloads | Nein |
 | micropython.org | micropython.org | Firmware flashen | nur Downloads | Nein |
 | PyPI | pypi.org, files.pythonhosted.org | Pip-Manager | nur Downloads | Nein |
 | Git-Server | vom Nutzer eingegeben (z. B. gitcamp-bw.de, github.com) | Menü „Git“ | Repository-Inhalte, Zugangsdaten (siehe 3.) | Ja |
